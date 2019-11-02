@@ -3,7 +3,6 @@ import sys
 
 cascPath = "haarcascade_frontalface_default.xml"
 faceCascade = cv2.CascadeClassifier(cascPath)
-
 video_capture = cv2.VideoCapture(0)
 
 while True:
