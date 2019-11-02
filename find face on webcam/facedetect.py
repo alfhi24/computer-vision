@@ -19,7 +19,6 @@ while True:
         minSize=(30, 30),
         # flags=cv2.cv.CV_HAAR_SCALE_IMAGE
     )
-
     # Draw a rectangle around the faces
     font = cv2.FONT_HERSHEY_COMPLEX_SMALL
     for (x, y, w, h) in faces:
